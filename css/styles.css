@@ -416,6 +416,7 @@ margin-right: 50px;
 .team-networks {
     display: flex;
     justify-content: center;
+    align-items: center;
     
     
 }
@@ -553,7 +554,7 @@ margin-right: 50px;
     margin-bottom: 9px;
 }
 
-.address_item .link {
+.address__link {
     color: rgba(255, 255, 255, 0.6);
     
     font-weight: 400;
@@ -564,9 +565,7 @@ margin-right: 50px;
     transition: color 250ms var(--timing-function);
 }
 
-/* .footer-contacts-item:not(:last-child) {
-    margin-bottom: 9px;
-} */
+
 
 .address__link:hover, .address__link:focus {
     color: var(--accent-text-color);
@@ -762,6 +761,7 @@ margin-right: 50px;
     margin-left: auto;
     margin-right: auto;
     /* display: flex; */
+
     flex-direction: column;
     
     
@@ -808,8 +808,8 @@ margin-right: 50px;
     outline: none;
 }
 
-.modal-form__field:focus-within .modal-input__icon,
-.modal-form__field:hover .modal-input__icon {
+.modal-form__field:focus-within .modal-form__icon,
+.modal-form__field:hover .modal-form__icon {
     fill: var(--accent-text-color);
 }
 
