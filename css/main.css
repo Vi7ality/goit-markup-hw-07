@@ -1012,7 +1012,7 @@ p {
 }
 
 .project__name {
-  color: tittle-text-color;
+  color: #212121;
   font-size: 18px;
   line-height: 2;
   margin-bottom: 4px;
